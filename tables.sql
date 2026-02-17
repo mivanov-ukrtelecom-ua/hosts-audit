@@ -37,3 +37,19 @@ CREATE TABLE public."armus_hosts"
 
 ALTER TABLE IF EXISTS public."armus_hosts"
     OWNER to postgres;
+
+
+
+DROP TABLE IF EXISTS public."zbx_hosts";
+
+CREATE TABLE public."zbx_hosts"
+(
+    zbx_hostname text,
+    zbx_interface text,
+    zbx_availability text,
+    zbx_tags text,
+    zbx_status text
+);
+
+ALTER TABLE IF EXISTS public."zbx_hosts"
+    OWNER to postgres;
