@@ -1,9 +1,3 @@
--- 1.armus -> csv
--- 2.import to libre office  cyrillic(PT154) 
--- 3.copy(libre) --> paste(mousepad)
--- 4.replace ' "
-
-
 DROP TABLE IF EXISTS public."armus_hosts";
 
 CREATE TABLE public."armus_hosts"
