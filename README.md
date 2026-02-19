@@ -18,6 +18,7 @@
 
 1. on zabbix select and copy
 2. paste to excel
-3. save as CSV
-4. import to postgres
+3. copy A-E columns, paste to another tab
+4. save as CSV
+5. import to postgres
 
