@@ -5,11 +5,11 @@
 
 **report.sql**   -  query to build report
 
-# How to do
+# How to import
 
 1. export ARMUS  --> csv 
-2. open in libre office  cyrillic(win1251ua) 
-3. copy(libre) --> paste(mousepad)
+2. open in libreofficeCalc(excel)  cyrillic(win1251ua) 
+3. copy(libre) --> paste(notepad)
 4. replace \t' to space 
 5. replace "   to space 
 6. import to postgres
