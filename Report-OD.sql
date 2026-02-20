@@ -3,7 +3,7 @@ select *
  where (    zbx_tags like '%OD_ICMP%'
          or zbx_tags like '%MK_ICMP%'
 		 or zbx_tags like '%VC_ICMP%'
---         or zbx_tags like '%HR_ICMP%'
+         or zbx_tags like '%HS_ICMP%'
 ) 
    and SUBSTRING(zbx_interface,'([0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3})' ) in (
   
